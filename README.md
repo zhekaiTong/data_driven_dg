@@ -26,23 +26,23 @@ Some data can be found in
 We first preprocess the raw images captured by the robot into heightmaps.
 - Input: RGB image and depth image
 ```
-python heightmap.py
+python /path to script/heightmap.py
 ```
 ### 2. Make pre-train dataset
 - Input: RGB heightmap and depth heightmap
 ```
-python data_annotation_label_all_shape.py
+python /path to script/data_annotation_label_all_shape.py
 ```
 ### 3. Collect data in real experiments
 ```
-python main_for_data_collection_comprehensive.py
+python /path to script/main_for_data_collection_comprehensive.py
 ```
 ### 3. Train the network
 - Input: Dataset that includes heightmap images and ground truth label arrays
 ```
-python train.py
+python /path to script/train.py
 ```
 ### 4. Test the trained network in real
 ```
-python main_light.py
+python /path to script/main_light.py
 ```
