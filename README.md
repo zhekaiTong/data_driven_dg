@@ -29,7 +29,7 @@ We first preprocess the raw images captured by the robot into heightmaps.
 python heightmap.py
 ```
 ### 2. Make pre-train dataset
--Input: RGB heightmap and depth heightmap
+- Input: RGB heightmap and depth heightmap
 ```
 python data_annotation_label_all_shape.py
 ```
