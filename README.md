@@ -49,7 +49,7 @@ python /path to script/main_light.py
 
 ## Experiment results
 ### Tested with homogeneous object cluster (Domino blocks)
-See the [**video**](https://drive.google.com/file/d/1OgcQyay1XoU9UGTeBtx6izYGiKw-bm69/view?usp=sharing)
+See the [**video**](https://drive.google.com/file/d/1OgcQyay1XoU9UGTeBtx6izYGiKw-bm69/view?usp=sharing).
 - Training target: digging position and orientation (yaw angle)
 - Number of trained data: around 5000
 - Success rate: around 60%
