@@ -22,3 +22,8 @@ Some data can be found in
 - [**Training dataset from real**](https://drive.google.com/file/d/1pO7yF8Vfzpg9Dkj9qa6YMXFDm5Xi8G-s/view?usp=sharing)
 
 ## Software
+### 1. Make heightmap
+- Input: RGB image and depth image
+```
+python heightmap.py
+```
