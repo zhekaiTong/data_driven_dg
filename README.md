@@ -7,9 +7,10 @@ This package provides an end-to-end data driven approach for picking thin object
 ### 1. For pre-training the network
 This dataset includes a) RGB heightmap images showing the real scene of objects, b) 2-D arrays for ground truth labels . The groud truth label is of the same size as the RGB heightmap, and obtained following our our model-based dig-grasping method. Each point in the label is associated with a class that represents for a background or successful/failed dig-grasp. Here shows an example:
 <p align = "center">
-<img src="files/1_0_image.png" width="360" height="202"> 
-<img src="files/1_0_label.png" width="360" height="202"> 
+<img src="files/1_0_image.png" width="200" height="200"> 
+<img src="files/1_0_label.png" width="200" height="200"> 
 </p>
+
 Other data can be found via:
 - [**Pre-train dataset for domino only**](https://drive.google.com/file/d/1vmRiNhAcFs5DHyphjMjxNsaeJSbrf9bS/view?usp=sharing)
 - [**Pre-train dataset for various shapes**](https://drive.google.com/file/d/1nsvOPXmXoLaq1A82Nuii7YMZymVChAHW/view?usp=sharing)
