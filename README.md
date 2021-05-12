@@ -46,3 +46,7 @@ python /path to script/train.py
 ```
 python /path to script/main_light.py
 ```
+
+## Experiment results
+### Tested with Homogeneous object cluster (Domino blocks)
+<img src="files/domino_pretrain.mp4" width="640" height="480"> 
